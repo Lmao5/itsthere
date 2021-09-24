@@ -1,6 +1,6 @@
 {
   "name": "itsthere",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simply returns true if variable does not contain null, undefined and just empty whitespaces.",
   "main": "index.js",
   "scripts": {
