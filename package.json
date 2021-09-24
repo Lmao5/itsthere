@@ -1,7 +1,7 @@
 {
   "name": "itsthere",
   "version": "1.0.0",
-  "description": "Simply returns true if variable does not contain null, undefined and empty strings.",
+  "description": "Simply returns true if variable does not contain null, undefined and just empty whitespaces.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,11 @@
     "url": "git+https://github.com/Lmao5/itsthere.git"
   },
   "keywords": [
-    "itsthere", "its there", "not null", "not undefined", "not empty"
+    "itsthere",
+    "its there",
+    "not null",
+    "not undefined",
+    "not empty"
   ],
   "author": "Muhammad Hasan Bin Suwandi",
   "license": "MIT",
