@@ -12,11 +12,17 @@ npm i itsthere
 ```js
 const itsthere = require('itsthere')
 
-console.log(itsthere()) // false
-console.log(itsthere(null)) //false
-console.log(itsthere(undefined)) //false
-console.log(itsthere("")) //false
-console.log(itsthere("       ")) //false
+console.log(itsthere("hello world"))// true
+console.log(itsthere())             // false
+
+// Null & Undefined
+console.log(itsthere(null))         // false
+console.log(itsthere(undefined))    // false
+
+// Empty Strings
+console.log(itsthere(""))           // false
+console.log(itsthere("       "))    // false
+console.log(itsthere("   a    "))   // true
 
 const randomHash = "0424974c68530290458c8d58674e2637f65abc127057957d7b3acbd24c208f93"
 
@@ -39,4 +45,4 @@ else{
 ```
 
 ## License
-[MIT](https://opensource.org/licenses/MIT)
+[MIT](https://github.com/Lmao5/itsthere/blob/improved_docs/LICENSE)
